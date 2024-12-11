@@ -127,7 +127,6 @@ const verifyOrder = async (req, res) => {
     } catch (error) {
         res.json({ success: false, message: "Not  Verified" })
     }
-
 }
 
 export { placeOrder, listOrders, userOrders, updateStatus, verifyOrder, placeOrderCod }
